@@ -6,6 +6,4 @@ This is a google chrome extension that shows a QR code of your browser's current
 QR Code generator lib: https://github.com/davidshimjs/qrcodejs
 
 #How to use
-Download as .zip file and extract it.
-
-Now load this repository as unpacked extenion. [Know how to load unpacked extension](https://developer.chrome.com/extensions/getstarted#unpacked)
+See [wiki](https://github.com/wasimbeniwale/UrlFromPC2Mob/wiki)
