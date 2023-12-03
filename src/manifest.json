@@ -1,12 +1,15 @@
 {
-  "manifest_version": 2,
-
+  "manifest_version": 3,
   "name": "UrlFromPC2Mobile",
-  "description": "This extension shows a QR code of your current borwser location, so that you can scan it on your mobile.",
+  "description": "This extension shows a QR code of your current browser location, so that you can scan it on your mobile.",
   "version": "1.0",
-
-  "browser_action": {
-    "default_icon": "icon.png",
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "24": "icon.png",
+      "32": "icon.png"
+    },
+    "default_title": "Generate QR code",
     "default_popup": "index.html"
   },
   "permissions": [
